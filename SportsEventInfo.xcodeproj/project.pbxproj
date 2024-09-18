@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DCE6AA1E2C9B9361007BEE4E /* SportsEventInfoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE6AA1D2C9B9361007BEE4E /* SportsEventInfoApp.swift */; };
+		DCE6AA202C9B9361007BEE4E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE6AA1F2C9B9361007BEE4E /* ContentView.swift */; };
+		DCE6AA222C9B9364007BEE4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCE6AA212C9B9364007BEE4E /* Assets.xcassets */; };
+		DCE6AA252C9B9364007BEE4E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCE6AA242C9B9364007BEE4E /* Preview Assets.xcassets */; };
+		DCE6AA2F2C9B9364007BEE4E /* SportsEventInfoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE6AA2E2C9B9364007BEE4E /* SportsEventInfoTests.swift */; };
+		DCE6AA392C9B9364007BEE4E /* SportsEventInfoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE6AA382C9B9364007BEE4E /* SportsEventInfoUITests.swift */; };
+		DCE6AA3B2C9B9364007BEE4E /* SportsEventInfoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE6AA3A2C9B9364007BEE4E /* SportsEventInfoUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCE6AA2B2C9B9364007BEE4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCE6AA122C9B9361007BEE4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCE6AA192C9B9361007BEE4E;
+			remoteInfo = SportsEventInfo;
+		};
+		DCE6AA352C9B9364007BEE4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCE6AA122C9B9361007BEE4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCE6AA192C9B9361007BEE4E;
+			remoteInfo = SportsEventInfo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DCE6AA1A2C9B9361007BEE4E /* SportsEventInfo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SportsEventInfo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCE6AA1D2C9B9361007BEE4E /* SportsEventInfoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsEventInfoApp.swift; sourceTree = "<group>"; };
+		DCE6AA1F2C9B9361007BEE4E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DCE6AA212C9B9364007BEE4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCE6AA242C9B9364007BEE4E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DCE6AA2A2C9B9364007BEE4E /* SportsEventInfoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SportsEventInfoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCE6AA2E2C9B9364007BEE4E /* SportsEventInfoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsEventInfoTests.swift; sourceTree = "<group>"; };
+		DCE6AA342C9B9364007BEE4E /* SportsEventInfoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SportsEventInfoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCE6AA382C9B9364007BEE4E /* SportsEventInfoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsEventInfoUITests.swift; sourceTree = "<group>"; };
+		DCE6AA3A2C9B9364007BEE4E /* SportsEventInfoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsEventInfoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCE6AA172C9B9361007BEE4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCE6AA272C9B9364007BEE4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCE6AA312C9B9364007BEE4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCE6AA112C9B9361007BEE4E = {
+			isa = PBXGroup;
+			children = (
+				DCE6AA1C2C9B9361007BEE4E /* SportsEventInfo */,
+				DCE6AA2D2C9B9364007BEE4E /* SportsEventInfoTests */,
+				DCE6AA372C9B9364007BEE4E /* SportsEventInfoUITests */,
+				DCE6AA1B2C9B9361007BEE4E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCE6AA1B2C9B9361007BEE4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCE6AA1A2C9B9361007BEE4E /* SportsEventInfo.app */,
+				DCE6AA2A2C9B9364007BEE4E /* SportsEventInfoTests.xctest */,
+				DCE6AA342C9B9364007BEE4E /* SportsEventInfoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCE6AA1C2C9B9361007BEE4E /* SportsEventInfo */ = {
+			isa = PBXGroup;
+			children = (
+				DCE6AA1D2C9B9361007BEE4E /* SportsEventInfoApp.swift */,
+				DCE6AA1F2C9B9361007BEE4E /* ContentView.swift */,
+				DCE6AA212C9B9364007BEE4E /* Assets.xcassets */,
+				DCE6AA232C9B9364007BEE4E /* Preview Content */,
+			);
+			path = SportsEventInfo;
+			sourceTree = "<group>";
+		};
+		DCE6AA232C9B9364007BEE4E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DCE6AA242C9B9364007BEE4E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DCE6AA2D2C9B9364007BEE4E /* SportsEventInfoTests */ = {
+			isa = PBXGroup;
+			children = (
+				DCE6AA2E2C9B9364007BEE4E /* SportsEventInfoTests.swift */,
+			);
+			path = SportsEventInfoTests;
+			sourceTree = "<group>";
+		};
+		DCE6AA372C9B9364007BEE4E /* SportsEventInfoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DCE6AA382C9B9364007BEE4E /* SportsEventInfoUITests.swift */,
+				DCE6AA3A2C9B9364007BEE4E /* SportsEventInfoUITestsLaunchTests.swift */,
+			);
+			path = SportsEventInfoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCE6AA192C9B9361007BEE4E /* SportsEventInfo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCE6AA3E2C9B9364007BEE4E /* Build configuration list for PBXNativeTarget "SportsEventInfo" */;
+			buildPhases = (
+				DCE6AA162C9B9361007BEE4E /* Sources */,
+				DCE6AA172C9B9361007BEE4E /* Frameworks */,
+				DCE6AA182C9B9361007BEE4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SportsEventInfo;
+			productName = SportsEventInfo;
+			productReference = DCE6AA1A2C9B9361007BEE4E /* SportsEventInfo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DCE6AA292C9B9364007BEE4E /* SportsEventInfoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCE6AA412C9B9364007BEE4E /* Build configuration list for PBXNativeTarget "SportsEventInfoTests" */;
+			buildPhases = (
+				DCE6AA262C9B9364007BEE4E /* Sources */,
+				DCE6AA272C9B9364007BEE4E /* Frameworks */,
+				DCE6AA282C9B9364007BEE4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCE6AA2C2C9B9364007BEE4E /* PBXTargetDependency */,
+			);
+			name = SportsEventInfoTests;
+			productName = SportsEventInfoTests;
+			productReference = DCE6AA2A2C9B9364007BEE4E /* SportsEventInfoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DCE6AA332C9B9364007BEE4E /* SportsEventInfoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCE6AA442C9B9364007BEE4E /* Build configuration list for PBXNativeTarget "SportsEventInfoUITests" */;
+			buildPhases = (
+				DCE6AA302C9B9364007BEE4E /* Sources */,
+				DCE6AA312C9B9364007BEE4E /* Frameworks */,
+				DCE6AA322C9B9364007BEE4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCE6AA362C9B9364007BEE4E /* PBXTargetDependency */,
+			);
+			name = SportsEventInfoUITests;
+			productName = SportsEventInfoUITests;
+			productReference = DCE6AA342C9B9364007BEE4E /* SportsEventInfoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCE6AA122C9B9361007BEE4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					DCE6AA192C9B9361007BEE4E = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					DCE6AA292C9B9364007BEE4E = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = DCE6AA192C9B9361007BEE4E;
+					};
+					DCE6AA332C9B9364007BEE4E = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = DCE6AA192C9B9361007BEE4E;
+					};
+				};
+			};
+			buildConfigurationList = DCE6AA152C9B9361007BEE4E /* Build configuration list for PBXProject "SportsEventInfo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCE6AA112C9B9361007BEE4E;
+			productRefGroup = DCE6AA1B2C9B9361007BEE4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCE6AA192C9B9361007BEE4E /* SportsEventInfo */,
+				DCE6AA292C9B9364007BEE4E /* SportsEventInfoTests */,
+				DCE6AA332C9B9364007BEE4E /* SportsEventInfoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCE6AA182C9B9361007BEE4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCE6AA252C9B9364007BEE4E /* Preview Assets.xcassets in Resources */,
+				DCE6AA222C9B9364007BEE4E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCE6AA282C9B9364007BEE4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCE6AA322C9B9364007BEE4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCE6AA162C9B9361007BEE4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCE6AA202C9B9361007BEE4E /* ContentView.swift in Sources */,
+				DCE6AA1E2C9B9361007BEE4E /* SportsEventInfoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCE6AA262C9B9364007BEE4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCE6AA2F2C9B9364007BEE4E /* SportsEventInfoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCE6AA302C9B9364007BEE4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCE6AA3B2C9B9364007BEE4E /* SportsEventInfoUITestsLaunchTests.swift in Sources */,
+				DCE6AA392C9B9364007BEE4E /* SportsEventInfoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCE6AA2C2C9B9364007BEE4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCE6AA192C9B9361007BEE4E /* SportsEventInfo */;
+			targetProxy = DCE6AA2B2C9B9364007BEE4E /* PBXContainerItemProxy */;
+		};
+		DCE6AA362C9B9364007BEE4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCE6AA192C9B9361007BEE4E /* SportsEventInfo */;
+			targetProxy = DCE6AA352C9B9364007BEE4E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DCE6AA3C2C9B9364007BEE4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DCE6AA3D2C9B9364007BEE4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCE6AA3F2C9B9364007BEE4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SportsEventInfo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Swift.SportsEventInfo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DCE6AA402C9B9364007BEE4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SportsEventInfo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Swift.SportsEventInfo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DCE6AA422C9B9364007BEE4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Swift.SportsEventInfoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SportsEventInfo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SportsEventInfo";
+			};
+			name = Debug;
+		};
+		DCE6AA432C9B9364007BEE4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Swift.SportsEventInfoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SportsEventInfo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SportsEventInfo";
+			};
+			name = Release;
+		};
+		DCE6AA452C9B9364007BEE4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Swift.SportsEventInfoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SportsEventInfo;
+			};
+			name = Debug;
+		};
+		DCE6AA462C9B9364007BEE4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Swift.SportsEventInfoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SportsEventInfo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCE6AA152C9B9361007BEE4E /* Build configuration list for PBXProject "SportsEventInfo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCE6AA3C2C9B9364007BEE4E /* Debug */,
+				DCE6AA3D2C9B9364007BEE4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCE6AA3E2C9B9364007BEE4E /* Build configuration list for PBXNativeTarget "SportsEventInfo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCE6AA3F2C9B9364007BEE4E /* Debug */,
+				DCE6AA402C9B9364007BEE4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCE6AA412C9B9364007BEE4E /* Build configuration list for PBXNativeTarget "SportsEventInfoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCE6AA422C9B9364007BEE4E /* Debug */,
+				DCE6AA432C9B9364007BEE4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCE6AA442C9B9364007BEE4E /* Build configuration list for PBXNativeTarget "SportsEventInfoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCE6AA452C9B9364007BEE4E /* Debug */,
+				DCE6AA462C9B9364007BEE4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCE6AA122C9B9361007BEE4E /* Project object */;
+}
