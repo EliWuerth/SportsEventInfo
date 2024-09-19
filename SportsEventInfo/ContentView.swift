@@ -9,72 +9,49 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        //        VStack(alignment: .leading) {
-        //                    Text("football")
-        //                        .font(.largeTitle)
-        //                        .fontWeight(.bold)
-        //                        .padding(.bottom)
-        //
-        //                    HStack {
-        //                        Text("Matchup:")
-        //                            .font(.headline)
-        //                        Text("Tennessee vs Missouri")
-        //                            .font(.headline)
-        //                    }
-        //
-        //                    HStack {
-        //                        Text("When:")
-        //                            .font(.headline)
-        //                        Text("October 2, 2021 at 11:30:00 AM")
-        //                            .font(.headline)
-        //                    }
-        //
-        //                    Image("TNvsMO_GameLeaders")
-        //                        .resizable()
-        //                        .scaledToFit()
-        //                        .padding(.top)
-        // }
-        
         ScrollView {
-            VStack(alignment: .leading) {
-                HStack {
-                    Text("< Sports Events")
-                        .foregroundColor(.blue)
+            VStack(alignment: .leading, spacing: 5) {
+                Button(action: {
+                    // Your code here
+                }) {
+                    
+                    Image(systemName: "chevron.left")
+                        .padding(EdgeInsets(top: 0, leading: 10, bottom: 0, trailing: 0))
+                    Text("Sports Events")
                         .font(.system(size: 20))
-                    Spacer()
+                        
                 }
-                .padding(.top, 20)
                 
                 Text("Sports Event")
                     .font(.system(size: 30, weight: .bold))
-                    .padding(.top, 10)
+                    .padding(EdgeInsets(top: 10, leading: 20, bottom: 0, trailing: 0))
                 
                 HStack {
                     Image("football")
-                        .font(.system(size: 24))
                     Text("football")
                         .font(.system(size: 24))
+                        .padding(EdgeInsets(top: 0, leading: 10, bottom: 0, trailing: 0))
                 }
-                .padding(.top, 10)
+                .padding(EdgeInsets(top: 0, leading: 20, bottom: 0, trailing: 0))
                 
-                VStack(alignment: .leading, spacing: 5) {
-                    Text("Matchup: Tennessee vs Missouri")
-                        .italic()
-                    Text("When: October 2, 2021 at 11:30:00 AM")
-                        .italic()
+                Text("Matchup: Tennessee vs Missouri")
+                    .italic()
+                    .padding(EdgeInsets(top: 10, leading: 25, bottom: 0, trailing: 0))
+                Text("When: October 2, 2021 at 11:30:00 AM")
+                    .italic()
+                    .padding(EdgeInsets(top: 0, leading: 25, bottom: 10, trailing: 0))
+                 
+                VStack(alignment: .center) {
+                    Image("TNvsMO")
+                        .resizable()
+                        .scaledToFill()
+                        .frame(maxWidth: .infinity)
+                    
+                    Image("GameLeaders")
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width: 300, height: 300 )
                 }
-                .padding(.top, 10)
-                
-                Image("football_game")
-                    .resizable()
-                    .aspectRatio(contentMode: .fit)
-                    .frame(maxWidth: .infinity)
-                    .padding(.top, 10)
-                
-                Text("GameLeaders")
-                    .font(.system(size: 20, weight: .bold))
-                    .padding(.top, 10)
-                    .padding()
             }
         }
     }
