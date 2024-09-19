@@ -1,7 +1,6 @@
 {
   "images" : [
     {
-      "filename" : "TNvsMO_Oct2_2022.jpg",
       "idiom" : "universal",
       "scale" : "1x"
     },
@@ -10,6 +9,7 @@
       "scale" : "2x"
     },
     {
+      "filename" : "TNvsMO_Oct2_2022.jpg",
       "idiom" : "universal",
       "scale" : "3x"
     }

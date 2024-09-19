@@ -1,11 +1,11 @@
 {
   "images" : [
     {
-      "filename" : "TNvsMO_GameLeaders.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "TNvsMO_GameLeaders.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
